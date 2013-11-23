@@ -34,8 +34,8 @@
 
 <body>
 	<div class="container">
-		<div class="navbar">
-			<div class="row mainnav">
+		<div class="main-nav">
+			<div class="row navbar">
 				<a class="toggle" gumby-trigger=".navbar > ul" href="#">
 					<i class="icon-menu"></i>
 				</a>

@@ -148,6 +148,13 @@ html, body {
   text-align: right;
 }
 
+div#content {
+  margin-left:2px;
+}
+div#sub-page {
+  margin-top: 20px;
+}
+
 /* Fonts */
 @font-face {
   font-family: "entypo";
@@ -3108,13 +3115,19 @@ img {
    Navigation (with dropdowns)
 
  ======================================================*/
+.main-nav {
+  background: #20b24b;
+}
 .navbar {
   width: 100%;
   min-height: 60px;
   background: #20b24b;
-  margin: auto;
   display: block;
   position: relative;
+  margin: auto;
+}
+div.main-nav div.row.navbar {
+  padding-left: 0;
 }
 @media only screen and (max-width: 767px) {
   .navbar {
@@ -3200,6 +3213,9 @@ img {
   margin: 0;
   float: none;
 }
+
+.main-nav .navbar ul {
+}
 @media only screen and (max-width: 767px) {
   .navbar ul {
     position: absolute;
@@ -3254,14 +3270,14 @@ img {
 }
 .navbar ul li > a {
   display: block;
-  padding: 0 16px;
+  padding: 0 26px;
   white-space: nowrap;
   color: white;
   text-shadow: 0 1px 2px #666, 0 1px 0 #191a1b;
   height: 60px;
   line-height: 58px;
-  font-size: 16px;
-  font-size: 1rem;
+  font-size: 18px;
+  font-size: 1.1rem;
 }
 .navbar ul li > a i.icon-popup {
   position: absolute;

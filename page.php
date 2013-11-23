@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="row">
+<div class="row" id="sub-page">
 	<div class="eight columns">	
 		<div id="content">
 			<div class="row">
