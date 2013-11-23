@@ -1,0 +1,16 @@
+/*
+Theme Name: gumbyport
+Theme URI: http://github.com/sudomesh/gumbyport
+Author: Wrought
+Author URI: http://existenceproof.net/
+Description: A port of a gumby template for peoplesopen.net
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: gumby, mesh, sudo, sudo room, sudo mesh, peoplesopen.net
+*/
+
+.footer{
+  text-align: center;
+  margin: 25px 0 0 0;
+}
