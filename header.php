@@ -29,15 +29,16 @@
 	<!-- WordPress Pingback Url-->
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 	<!-- wordpress head functions -->
-	<?php wp_head(); ?>
 
 </head>
 
 <body>
 	<div class="container">
-		<div class="row navbar">				
+		<div class="navbar">
+			<div class="row mainnav">
 				<a class="toggle" gumby-trigger=".navbar > ul" href="#">
 					<i class="icon-menu"></i>
-				</a> 
+				</a>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'twelve columns','walker' => new Walker_Page_Custom, 'container' => '', 'container_class' => '' ) ); ?>
+			</div>
 		</div>

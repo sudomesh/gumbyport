@@ -289,13 +289,13 @@ h6 {
 p {
   font-family: anaheimregular, sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  font-size: 1rem;
+  font-size: 18px;
+  font-size: 1.1rem;
   margin-bottom: 13px;
   line-height: 1.625em;
 }
 p.lead {
-  font-size: 20px;
+  font-size: 24px;
   font-size: 1.25rem;
   margin-bottom: 18px;
 }
@@ -3111,9 +3111,9 @@ img {
 .navbar {
   width: 100%;
   min-height: 60px;
+  background: #20b24b;
+  margin: auto;
   display: block;
-  margin-bottom: 20px;
-  background: #4a4d50;
   position: relative;
 }
 @media only screen and (max-width: 767px) {
@@ -3143,7 +3143,7 @@ img {
     text-align: center;
     display: inline-block;
     color: white;
-    background: #4a4d50;
+    background: #20b24b;
     height: 40px;
     line-height: 38px;
     -webkit-border-radius: 4px;
@@ -3155,7 +3155,7 @@ img {
     font-size: 1.875rem;
   }
   .navbar a.toggle:hover {
-    background: #565a5d;
+    background: #0a742a;
   }
   .navbar a.toggle:active, .navbar a.toggle.active {
     background: #3e4043;
@@ -3211,7 +3211,7 @@ img {
     left: 0;
     overflow: hidden;
     text-align: center;
-    background: #3e4043;
+    background: #20b24b;
   }
   .navbar ul.active {
     height: auto;
@@ -3221,9 +3221,9 @@ img {
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
-    -webkit-box-shadow: 0 2px 2px #252728;
-    -moz-box-shadow: 0 2px 2px #252728;
-    box-shadow: 0 2px 2px #252728;
+    -webkit-box-shadow: 0 2px 2px #444444;
+    -moz-box-shadow: 0 2px 2px #444444;
+    box-shadow: 0 2px 2px #444444;
   }
 }
 .navbar ul li {
@@ -3257,7 +3257,7 @@ img {
   padding: 0 16px;
   white-space: nowrap;
   color: white;
-  text-shadow: 0 1px 2px #191a1b, 0 1px 0 #191a1b;
+  text-shadow: 0 1px 2px #666, 0 1px 0 #191a1b;
   height: 60px;
   line-height: 58px;
   font-size: 16px;
@@ -3525,7 +3525,7 @@ img {
 .gumby-no-touch .navbar ul li:hover > a,
 .gumby-touch .navbar ul li.active > a {
   position: relative;
-  background: #868d92;
+  background: #0a742a;
   z-index: 1000;
 }
 
@@ -8989,7 +8989,6 @@ input::-moz-focus-inner {
   background-size: cover;
   width: 100%;
   color: #fff;
-  border-top: 5px solid #20b24b;
 }
 
 .logo {

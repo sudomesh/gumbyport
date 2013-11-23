@@ -33,13 +33,13 @@
 	        'class'         => '',
 	        'before_widget' => '<div id="%1$s" class="widget %2$s">',
 	        'after_widget' => '</div>',
-	        'before_title' => '<h6 class="widget-title"> ',
-	        'after_title' => ' </h6>',
+	        'before_title' => '<h5 class="widget-title"> ',
+	        'after_title' => ' </h5>',
 	    ) );
 	}
 	add_action( 'widgets_init', 'gp_widgets_init' );
 
-U	//Walker Class - This add support for the dropdown menu in the Gumbyframework
+	//Walker Class - This add support for the dropdown menu in the Gumbyframework
 	class Walker_Page_Custom extends Walker_Nav_menu{
 
 		function start_lvl(&$output, $depth){

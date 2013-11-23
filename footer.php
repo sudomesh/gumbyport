@@ -29,5 +29,7 @@
 	<!-- Custom theme specific interaction -->
 	<script src="<?php echo get_template_directory_uri() ?>/js/theme.js"></script>
 
+ </div> <!-- closes container -->
+
   </body>
 </html>

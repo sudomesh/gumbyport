@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-
 <div class="row">
 	<div class="eight columns">	
 		<div id="content">
