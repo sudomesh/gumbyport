@@ -34,7 +34,7 @@
 			<div class="row">
 				<div class="twelve columns animate-on-scroll" data-scrollanimation="fadeDownIn">
 					<h3 class="signup-title">Want to contribute?</h3>
-					<h4 class="signup-subtitle">File an issue, put up a pull request. Let's make Martini awesome!</h4>
+					<h4 class="signup-subtitle">Write, Share, Code, Learn, Grow.</h4>
 				</div>
 			</div>
 			<div class="row">
