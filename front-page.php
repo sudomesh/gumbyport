@@ -23,7 +23,7 @@
 		<section id="demo" class="site-section section-testimonials">
 			<div class="row">
 				<div class="video-wrapper">
-					<iframe src="//player.vimeo.com/video/56348690" frameborder="0" width="500" height="201" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<iframe width="560" height="315" src="//www.youtube.com/embed/qva1SQSBDyE" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
 		</section>
